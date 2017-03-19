@@ -1,0 +1,13 @@
+{
+  "name": "songkick-alexa-concerts",
+  "version": "1.0.0",
+  "description": "get songkick concert info through alexa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/apps/songkick-concerts/index.js"
+  },
+  "dependencies": {
+    "alexa-app": "^2.3.2",
+    "request-promise": "^2.0.0"
+  }
+}
